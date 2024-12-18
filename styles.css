@@ -26,6 +26,10 @@ body {
 	border: none;
 	padding: 10px;
 	outline: none;
-	width: 300px;
-	text-align: center;
+	width: 600px; /*Box width */
+	height: 600px; /*Box height*/
+	resize: none; /*prevent resizing */
+	white-space: pre-wrap; /*preserve whitespace and allow wrapping*/
+	overflow-wrap: break-word; /*ensure text wraps to next line*/
+	word-wrap: break-word;
 }

@@ -10,21 +10,20 @@ body {
 	background-color: #ffffff;
 	font-family: "Courier New", Courier, monospace; /* Typewriter-style font */
 	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 /*Centered container */
 .container {
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px; /*Move the input box near the top*/
 }
 
 /* Typewriter style input box */
 .typewriter {
 	font-family: "Courier New", Courier, monospace; /* Typewriter-style font */
 	font-size: 1.5rem;
-	border 2px solid #000;
+	border: none;
 	padding: 10px;
 	outline: none;
 	width: 300px;

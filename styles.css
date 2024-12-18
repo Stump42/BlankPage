@@ -1,0 +1,32 @@
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Full-page white background */
+body {
+	background-color: #ffffff;
+	font-family: "Courier New", Courier, monospace; /* Typewriter-style font */
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*Centered container */
+.container {
+	text-align: center;
+}
+
+/* Typewriter style input box */
+.typewriter {
+	font-family: "Courier New", Courier, monospace; /* Typewriter-style font */
+	font-size: 1.5rem;
+	border 2px solid #000;
+	padding: 10px;
+	outline: none;
+	width: 300px;
+	text-align: center;
+}
